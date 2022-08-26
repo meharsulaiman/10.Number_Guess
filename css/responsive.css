@@ -1,0 +1,68 @@
+@media screen and (max-width: 1024px) {
+	button {
+		padding: 2rem 4rem;
+	}
+	main {
+		width: 40vw;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	main {
+		width: 50vw;
+		padding: 6rem 4rem;
+	}
+	.info {
+		flex-direction: column;
+		margin-top: 2rem;
+	}
+	p {
+		font-size: 1.6rem;
+	}
+	.info span {
+		font-size: 2rem;
+		color: #ff0511;
+		margin-left: 0;
+		margin-bottom: 0.5rem;
+	}
+	button {
+		padding: 2rem 4rem;
+		min-width: 25rem;
+	}
+}
+
+@media screen and (max-width: 425px) {
+	main {
+		width: 80vw;
+		padding: 6rem 3.7rem;
+	}
+	.info {
+		flex-direction: column;
+		margin-top: 1.7rem;
+	}
+	h3 {
+		font-size: 2.3rem;
+	}
+	button {
+		padding: 2rem 3.5rem;
+	}
+}
+
+@media screen and (max-width: 375px) {
+	main {
+		width: 97vw;
+		padding: 6rem 2rem;
+	}
+	.info {
+		flex-direction: column;
+		margin-top: 1.7rem;
+	}
+	h3 {
+		font-size: 2rem;
+	}
+	button {
+		padding: 2rem;
+		margin: 1rem;
+		min-width: 22rem;
+	}
+}
