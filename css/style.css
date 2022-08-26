@@ -36,6 +36,19 @@ main {
 	padding: 6rem 5rem;
 }
 
+.skeleton {
+	animation: 3s skeleton-loading linear;
+}
+
+@keyframes skeleton-loading {
+	0% {
+		filter: blur(10px);
+	}
+	100% {
+		filter: blur(0px);
+	}
+}
+
 h2 {
 	font-size: 2.2rem;
 	margin: 0 0 1rem;
